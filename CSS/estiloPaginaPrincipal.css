@@ -13,6 +13,7 @@
     text-align: left;
     font-size: 20px;
     margin: 30px;
+    margin-left: auto; 
 }
 
 .titulos {
@@ -30,45 +31,6 @@
     margin: -3px;
 }
 
-.textoidiomas {
-    text-align: center;
-    font-size: 30px;
-    font-family: "Habibi";
-}
-
 .logo {
     width: 200px;
-}
-
-.contacto {
-    margin-left: auto; 
-}
-
-.idiomas {
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-    justify-content: center; 
-    padding: 10px;
-    font-size: 50px;
-    font-family: "Habibi";
-    background-color:   gray;
-}
-
-.idiomas a {
-    text-decoration: none; 
-    color: white;        
-    padding: 50px;
-}   
-html {
-    background-color: blanchedalmond;
-}
-
-.contenedorImagen {
-    display: flex;          
-    justify-content: center;       
-}
-
-.imagen {
-    width: 600px;                
 }
