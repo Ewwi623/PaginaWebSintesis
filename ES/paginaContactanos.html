@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="shortcut icon" href="../IMG/LOGO.png" />
+    <link rel="stylesheet" href="../CSS/estiloPaginaContactanos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Habibi">
+</head>
+<body>
+    <div class="header-container">
+        <img class="logo" src="../IMG/LOGO.png">
+        <div class="titulos">
+            <h1>Vidas Con Futuro</h1>
+            <h2>...Juntos haremos un futuro mejor</h2>
+        </div>
+        <div class="enlaces-centro">
+            <a href="index.html">Inicio</a>
+            <a href="paginaNosotros.html">Nosotros</a>
+            <a href="paginaProyectos.html">Proyectos</a>
+        </div>
+        <div class="contacto">
+            <a href="paginaDonaciones.html">Donaciones</a>
+            <a href="paginaContactanos.html">Contactanos</a>
+        </div>
+    </div>
+    <br>
+    <div class="contenido">
+        <h1>Gracias por tomarse la molestia de contactarnos</h1>
+        <p>Por favor, rellena este formulario y te responderemos lo antes posible:</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Su Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Pepe" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Su Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Su Número de Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ej. +34 600 000 000" required>
+            </div>
+            <div class="form-group">
+                <label for="campo-libre">Su Mensaje:</label>
+                <textarea id="campo-libre" name="campo_libre" placeholder="Escriba aquí los detalles..." required></textarea>
+            </div>
+            <button type="submit">Enviar Formulario</button>
+        </form>
+    </div>

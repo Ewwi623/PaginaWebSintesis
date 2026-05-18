@@ -1,0 +1,66 @@
+html {
+    background-color: blanchedalmond;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.header-container {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Habibi";
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-right: 300px;
+}
+
+.titulos h1 {
+    font-size: 60px;
+}
+
+.titulos h2 {
+    font-size: 20px;
+    margin: -3px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.enlaces-centro a{
+    gap: 25px; 
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.contacto a{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.contenido {
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-image: url('../IMG/imagenDonacion.jpg');
+    min-height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+

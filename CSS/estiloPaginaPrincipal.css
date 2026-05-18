@@ -21,11 +21,11 @@ html {
     padding: 20px;
 }
 
-.contacto {
-    text-align: left;
+.contacto a{
     font-size: 20px;
-    margin: 30px;
-    margin-left: auto; 
+    padding: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 .titulos {
