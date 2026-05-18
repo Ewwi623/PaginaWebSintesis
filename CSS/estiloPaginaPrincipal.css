@@ -1,3 +1,8 @@
+html {
+    background-color: blanchedalmond;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
 .header-container {
     background-color: #000000;
     color: #FFFFFF;
@@ -7,6 +12,13 @@
     flex-direction: row;
     align-items: center; 
     justify-content: space-between; 
+}
+
+.enlaces-centro a{
+    gap: 25px; 
+    text-decoration: none;
+    color: white;
+    padding: 20px;
 }
 
 .contacto {
@@ -20,6 +32,7 @@
     display: flex;
     flex-direction: column; 
     justify-content: center;
+    margin-right: 300px;
 }
 
 .titulos h1 {
@@ -33,4 +46,65 @@
 
 .logo {
     width: 200px;
+}
+
+.contenido {
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-image: url('../IMG/imagenPrincipal2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido2 {
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-image: url('../IMG/imagenPrincipal3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido3 {
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-image: url('../IMG/imagenPrincipal1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    text-align: left;
+}
+
+.texto h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto p {
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.texto li {
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
