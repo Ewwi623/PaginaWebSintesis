@@ -64,3 +64,42 @@ html {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width: 768px) {
+    
+    .header-container {
+        flex-direction: column; 
+        gap: 20px;             
+        text-align: center;
+        padding: 20px;
+    }
+
+    .titulos h1 {
+        font-size: 36px;       
+    }
+
+    .titulos h2 {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 150px;         
+    }
+
+    .enlaces-centro {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .enlaces-centro a, .contacto a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .contenido {
+        min-height: 400px;    
+        padding: 40px 20px;   
+    }
+}

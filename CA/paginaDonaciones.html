@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donacions</title>
+    <link rel="shortcut icon" href="../IMG/LOGO.png" />
+    <link rel="stylesheet" href="../CSS/estiloPaginaDonaciones.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Habibi">
+</head>
+<body>
+    <div class="header-container">
+        <img class="logo" src="../IMG/LOGO.png">
+        <div class="titulos">
+            <h1>Vidas Con Futuro</h1>
+            <h2>...Junts farem un futur millor</h2>
+        </div>
+        <div class="enlaces-centro">
+            <a href="index.html">Inici</a>
+            <a href="paginaNosotros.html">Nosaltres</a>
+            <a href="paginaProyectos.html">Projectes</a>
+        </div>
+        <div class="contacto">
+            <a href="paginaDonaciones.html">Donacions</a>
+            <a href="paginaContactanos.html">Contacta'ns</a>
+        </div>
+    </div>
+    <br>
+    <div class="contenido">
+        <h1>Gràcies per donar suport a la nostra causa</h1>
+        <p>La teva generositat fa possible que continuem ajudant els qui més ho necessiten.</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">El vostre nom:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ex. Pepito" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">El vostre correu electrònic:</label>
+                <input type="email" id="correo" name="correo" placeholder="exemple@correu.com" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">El vostre número de telèfon:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ex. +34 600 000 000" required>
+            </div>
+            <div class="form-group">
+                <label for="campo-libre">Introduïu la quantitat:</label>
+                <input type="number" id="cantidad" name="cantidad" placeholder="Ex. 10" required>
+            </div>
+            <button type="submit">Procedir al pagament</button>
+        </form>
+    </div>
+</body>
+</html>

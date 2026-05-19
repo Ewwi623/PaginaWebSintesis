@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="../IMG/LOGO.png" />
+    <link rel="stylesheet" href="../CSS/estiloPaginaContactanos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Habibi">
+</head>
+<body>
+    <div class="header-container">
+        <img class="logo" src="../IMG/LOGO.png">
+        <div class="titulos">
+            <h1>Vidas Con Futuro</h1>
+            <h2>...Together we will make a better future</h2>
+        </div>
+        <div class="enlaces-centro">
+            <a href="index.html">Home</a>
+            <a href="paginaNosotros.html">About Us</a>
+            <a href="paginaProyectos.html">Projects</a>
+        </div>
+        <div class="contacto">
+            <a href="paginaDonaciones.html">Donations</a>
+            <a href="paginaContactanos.html">Contact Us</a>
+        </div>
+    </div>
+    <br>
+    <div class="contenido">
+        <h1>Thank you for taking the time to contact us</h1>
+        <p>Please fill out this form and we will get back to you as soon as possible:</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Your Name:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="e.g. Pepe" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Your Email Address:</label>
+                <input type="email" id="correo" name="correo" placeholder="example@email.com" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Your Phone Number:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="e.g. +34 600 000 000" required>
+            </div>
+            <div class="form-group">
+                <label for="campo-libre">Your Message:</label>
+                <textarea id="campo-libre" name="campo_libre" placeholder="Write the details here..." required></textarea>
+            </div>
+            <button type="submit">Submit Form</button>
+        </form>
+    </div>
+</body>
+</html>

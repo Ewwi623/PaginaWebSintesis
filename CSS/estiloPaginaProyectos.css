@@ -51,7 +51,7 @@ html {
 .contenido {
     border-radius: 20px;
     color: #FFFFFF;
-    background-image: url('../IMG/imagenDonacion.jpg');
+    background-image: url('../IMG/imagenProyectos.png');
     min-height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,13 +68,13 @@ html {
     
     .header-container {
         flex-direction: column; 
-        gap: 20px;              
+        gap: 20px;             
         text-align: center;
         padding: 20px;
     }
 
     .titulos h1 {
-        font-size: 36px;        
+        font-size: 36px;       
     }
 
     .titulos h2 {
@@ -86,7 +86,7 @@ html {
     }
 
     .enlaces-centro {
-        flex-direction: column; 
+        flex-direction: column;
         gap: 10px;
         width: 100%;
     }
@@ -95,11 +95,11 @@ html {
         display: block;
         width: 100%;
         padding: 10px;
-        box-sizing: border-box;
+        box-sizing: border-box; 
     }
 
     .contenido {
-        min-height: 400px;      
+        min-height: 400px;     
         padding: 40px 20px;     
     }
 }
